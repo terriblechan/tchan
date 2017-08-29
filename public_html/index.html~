@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>rage cage</title>
+<style type="text/css">
+  body {
+    background-color:black;
+    font-family: system;
+    color: white;
+  }
+ 
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h5 {
+    font-size: .66em;
+  }
+
+  h6 {
+    font-size: .50em;
+  }
+  
+  .header {
+    text-aligh:center;
+  }
+
+  .b {
+    text-align:right;
+  }
+</style> 
+
+</head> 
+
+
+<body>
+
+ <div class="header">
+   <h1>good morning</h1>
+   <h6>we are still under construction pls forgive us</h6>
+   <br>
+   <br>
+ </div>
+
+ <div class="b">
+   <br>
+   <h1>linko</h1>
+
+    <p><a href="http://tchan.bandcamp.com/">bc</a></p>
+    <p><a href="http://soundcloud.com/det-chan">sc</a></p>
+    <p><a href="http://facebook.com/tchanbishhh">fb</a></p>
+    <p><a href="http://twitter.com/djgirl313">t</a></p>
+    <br>
+    <br>
+ </div>
+
+ <div class="beg">
+    <h5> hey i love u btw please donate paypal.me/tchanbish </h5>
+ </div> 
+ 
+ <div class="pic">	
+    <img src="slick.png" alt="slick" width=105 height=100> 
+ </div> 
+
+</body>
+</html>

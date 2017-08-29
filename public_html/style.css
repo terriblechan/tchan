@@ -1,0 +1,76 @@
+  body {
+     background-color:#000000;
+     color:#FFFFFF;
+     font-family: 'Anonymous Pro', monospace;
+  }
+
+  h1 {font-size: 3.6em;  }
+
+  h5 {font-size: .76em;  }
+
+  h6 { font-size: .56em;  }
+
+/*  .button {
+    background-color: #c61aff;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+} */
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-areas: 
+     "header header header"
+     ". center sidebar"
+     ". button sidebar"
+     "bottom bottom bottom";
+  }
+
+                        /* header */
+  .hh {
+    text-align:center;
+    grid-area: header;
+  }
+
+                        /*  sidebar */
+  .b {
+    grid-area:sidebar;
+    text-align:right;
+    font-family: 'Inconsolata', monospace;
+  }
+ 
+                      /* center image */
+  .img {
+    grid-area:center;
+    text-align:center;
+    align-self:center;
+  }
+
+                        /* paypal */
+  .beg {
+    grid-area:button;
+    text-align:center;
+  }
+                       /* bottom pic */
+  .pic {
+    grid-area:bottom;
+   /*  align-self:end; */
+    text-align:center;
+  }
+
+
+
+
+
+
+
+
+
+
+
